@@ -13,6 +13,7 @@
   "author": "Julio Cesar <juliocesarrodriguezcruz@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bower": "^1.7.9",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
