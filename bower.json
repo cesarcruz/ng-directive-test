@@ -1,0 +1,28 @@
+{
+  "name": "Simple Angular Directive Test",
+  "authors": [
+    "Julio Cesar <juliocesarrodriguezcruz@gmail.com>"
+  ],
+  "description": "Simple example for test an AngularJS Directive using Karma",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "directive",
+    "unittest",
+    "karma",
+    "test"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cesarcruz/ng-directive-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5"
+  }
+}
