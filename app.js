@@ -4,7 +4,7 @@ app.directive('myTest', [function () {
 	return {
 		restrict: 'E',
 		replace: false,
-		templateUrl: 'directive.tpl.html',
+		templateUrl: 'my-test.tpl.html',
 		controller: ["$scope", function ($scope) {
 			$scope.tests = [
 				{"name": "Test 1"},
