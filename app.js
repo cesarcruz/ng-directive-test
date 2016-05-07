@@ -4,8 +4,7 @@ app.directive('myTest', [function () {
 	return {
 		restrict: 'E',
 		replace: false,
-		template: '<p ng-repeat="test in tests">{{ test.name }}</p>',
-		// templateUrl: 'directive.tpl.html',
+		templateUrl: 'directive.tpl.html',
 		controller: ["$scope", function ($scope) {
 			$scope.tests = [
 				{"name": "Test 1"},
