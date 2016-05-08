@@ -2,14 +2,14 @@
 
 This code is to test a simple AngularJS directive using Karma.
 
-**Version 1:**
+**Version 1:** ([Release 1.0](https://github.com/cesarcruz/ng-directive-test/releases/tag/v1.0))
 
 In the file `app.js` there is the AngularJS module, directive and the test.
 
 The directive is to replace an element (`<my-test></my-test>`) by a list of `p` element with test names text printed
 from the scope. The template is located in `directive.tpl.html` file.
 
-**Version 2:**
+**Version 2:** ([Release 2.0](https://github.com/cesarcruz/ng-directive-test/releases/tag/v2.0))
 
 Now the directive loads data from a json using http request.
 
