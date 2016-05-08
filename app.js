@@ -5,10 +5,12 @@ app.directive('myTest', [function () {
 		restrict: 'E',
 		replace: false,
 		templateUrl: 'my-test.tpl.html',
-		controller: ['$scope', '$http', function ($scope, $http) {
-			$http.get('/my-test.data.json').success(function (data) {
-				$scope.tests = data.results
-			});
-		}]
+		controller: 'MyTestDirectiveController'
 	}
+}]);
+
+app.controller('MyTestDirectiveController', ['$scope', '$http', function ($scope, $http) {
+	$http.get('/my-test.data.json').success(function (data) {
+		$scope.tests = data.results
+	});
 }]);
